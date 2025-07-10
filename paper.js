@@ -12,13 +12,17 @@
 // @grant        GM_notification
 // @grant        GM_setValue
 // @grant        GM_getValue
-// @require      https://cdn.jsdelivr.net/npm/sweetalert2@11
+// @require      https://fastly.jsdelivr.net/npm/sweetalert2@11
 // @homepage     https://github.com/bzyzh/xkw-zujuan-script
 // @license      GNU Affero General Public License v3.0
 // ==/UserScript==
 
 (function() {
     'use strict';
+
+    // 开头require修改：cdn.jsdelivr.net to fastly.jsdelivr.net
+
+
     console.log("✅ 程序加载成功");
 
     // 获取用户信息
